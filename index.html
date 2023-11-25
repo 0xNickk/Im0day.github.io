@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content = "yes" />
+   
+    <title>0day - Portfolio</title>
+        <link rel = "icon" type = "image/x-icon" href = "/IMG/favicon-32x32.png">
+        <link rel  = "stylesheet"  type = "text/css" href="style.css">
+        <link href = "https://unpkg.com/aos@2.3.1/dist/aos.css" rel = "stylesheet"> 
+        <link rel  = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel  = "stylesheet" href = "https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+        <link rel  = "stylesheet" href = "https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel  = "stylesheet" href = "https://fonts.googleapis.com/css?family=Roboto Mono">
+</head>
+
+<html>
+<body>
+
+<div class = "loading-wrap">
+    <div data-aos = "fade-in" data-aos-delay = "0" class = "loading-text">BOOTING...</div>
+</div>
+
+<nav class =  "navbar">
+    <a href = "index.html">
+        <img class = "nav-logo" src = "/IMG/logo.png">
+    </a>
+    <img class = "menu-icon"  src = "/IMG/menu-open.png"  onclick = "mobile_menu()">
+
+    <ul class = "nav-content">
+        <li><a href = "#ancor2"><span>01</span> Whoami</a></li>
+        <li><a href = "#ancor3"><span>02</span> Skills</a></li>
+        <li><a href = "#ancor4"><span>03</span> Projects</a></li>
+    </ul>
+</nav>
+
+
+<nav class = "mobile-nav">
+    <img class = "menu-icon-close" src = "/IMG/close-icon.png" onclick = "mobile_menu()">
+
+    <ul class = "mobile-content">
+        <li><a href = "#ancor2" onclick = "mobile_menu()" ><span>01 </span> Whoami </a></li>
+        <li><a href = "#ancor3" onclick = "mobile_menu()"><span>02 </span> Skills</a></li>
+        <li><a href = "#ancor4" onclick = "mobile_menu()"><span>03 </span> Projects</a></li>
+    </ul>
+</nav>
+
+<!--Main header--------------->
+<div id = "ancor1"></div>
+<main>
+    <div class = "type-box">
+        <h1 data-aos-delay = "1000" data-aos = "fade-in" data-aos-duration = "500" class = "main-header">
+            Hi, im <span style = "color: white">0day</span>
+        </h1>
+        <h1 data-aos-delay = "1200" data-aos = "fade-in" data-aos-duration = "600" class = "main-header-second">
+            I build <span style = "color: #8892B0">IT </span>stuff in free time
+        </h1>
+        <h2 data-aos-delay = "1400" data-aos = "fade-in" data-aos-duration = "600" class = "subtitle-main-header">
+            Developer & Cybersecurity 
+        </h2>
+
+        <button data-aos-delay = "1600" data-aos = "fade-in" data-aos-duration = "600" class = "get-in-touch">
+            <a  href = "mailto:Im0day@proton.me">Get in touch</a>
+        </button>
+
+        <a data-aos-delay = "1600" data-aos = "fade-in" data-aos-duration = "600" class = "next-section-container " href = "#ancor2">
+            <i class = "fa fa-chevron-down fa-1x " aria-hidden = "true"></i>
+        </a>
+    </div> 
+</main>
+
+<!--About me--------------->
+<section class = "whoami-section" id = "ancor2">    
+    <h2 data-aos-delay = "500" data-aos = "fade-up" data-aos-duration = "500" class = "header-whoami">
+        <span class = "index-whoami">01.</span>About me</h2>
+
+    <div data-aos-delay = "500" data-aos = "fade-up" data-aos-duration = "500" class = "whoami-container">
+        <div class = "terminal-menu">
+            <i class = "full-screen fa fa-window-maximize"></i>
+            <i class = "close-icon fa fa-times-circle"></i>
+            <i class = "minimize-screen fa fa-minus-circle"></i>
+        </div>
+
+        <div class = "whoami-content">
+            <p>
+                Hi! Im <span class = "evidence">Nicolo', </span>but you can call me <span class = "evidence">0day</span>, 16 years old italian <span class = "evidence">IT</span> student,<br> 
+                passionate about <span class = "evidence">coding</span> and <span class = "evidence">information security</span>.
+                <br>Im currently studying <span class = "evidence">C</span> language and developing <a class = "link-to-project" href = "#projects">Hawks-C2</a>.<br>
+                <br><span class = "evidence">CTF</span> noob player in free time on <span class = "evidence">TryHackme</span> and <span class = "evidence">Olicyber</span>.<br>
+                <br>I hope to make my deep passion a <span class = "evidence">future job.</span>
+            </p>  
+        </div>
+
+        <img class = "vector-img" src = "/IMG/vector.svg">
+    </div>
+</section>     
+
+<!--Skills--------------->
+<section id = "ancor3" class = "skills-section">
+    <div class = "header-skills">
+        <h1>
+            <span class = "index-skills">02.</span></span>Skills & <span style = "color: #CCD6F6">Tools</span>
+        </h1>
+
+        <p data-aos-delay = "400" data-aos = "fade-in" data-aos-duration = "500" class = "subtitle-skill">
+            I like to achive new knowledges every day.<br>I have experience with these technologies
+        </p>
+    </div>
+
+    <div data-aos-delay = "600" data-aos = "fade-up" data-aos-duration = "500"  class = "skill-container">
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 80px" src = "https://img.shields.io/badge/HTML5-0F172A?style=for-the-badge&logo=html5&logoColor=f06529"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 80px" src = "https://img.shields.io/badge/CSS3-0F172A?style=for-the-badge&logo=css3&logoColor=blue"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 110px" src = "https://img.shields.io/badge/JavaScript-0F172A?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 85px" src = "https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=yellow"></div>
+        </div>
+        
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 60px"  src = "https://img.shields.io/badge/C-0F172A?style=for-the-badge&logo=c&logoColor=blue"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 75px" src = "https://img.shields.io/badge/GIT-0F172A?style=for-the-badge&logo=git&logoColor=red"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 75px" src = "https://img.shields.io/badge/C%23-0F172A?style=for-the-badge&logo=c-sharp&logoColor=green"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 100px" src = "https://img.shields.io/badge/Debian-0F172A?style=for-the-badge&logo=debian&logoColor=orange"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 100px" src = "https://img.shields.io/badge/VSCode-0F172A?style=for-the-badge&logo=visual%20studio%20code&logoColor=blue"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 105px" src = "https://img.shields.io/badge/VMware-0F172A?style=for-the-badge&logo=VMware&logoColor=white"></div>
+        </div>
+
+        <div class = "skill-item">
+            <div class = "skill-name"><img style = "width: 110px"  src = "https://img.shields.io/badge/VirtualBox-0F172A?style=for-the-badge&logo=VirtualBox&logoColor=cyan"></div>
+        </div>
+    </div>     
+</section>
+
+<!--Projects--------------->
+<section id = "ancor4" class = "projects-section">
+
+        <h1 data-aos-delay = "200" data-aos = "fade-down" data-aos-duration = "400" class = "header-projects">
+            <span class = "index-projects">03.</span>Lastest <span style = "color: #CCD6F6">Projects</span>
+        </h1>
+
+        <div class = "projects-container">
+            <div data-aos-delay = "500" data-aos = "fade-in" data-aos-duration = "400"  class = "project-item">
+                <i id = "fa-folder" class="fa fa-folder-o" aria-hidden="true"></i>
+
+            <div class = "project-status">
+                <div>UPDATING</div>
+            </div>
+
+            <h1 class = "project-title">Hawks-C2</h1>
+                <p class = "project-dscp">
+                    Hawks is a C2 backdoor multi client session-handler,
+                    fully AES encrypted, obfuscated payload generator.
+
+            <div class = "project-link">
+                <a href = "https://github.com/Im0day/Im0day" target="_blank"> 
+                    <i id = "fa-icon" class = "fa fa-github"></i>
+                </a>
+            </div>  
+        </div>
+
+
+        <div data-aos-delay = "500" data-aos = "fade-in" data-aos-duration = "400"  class = "project-item">
+            <i id = "fa-folder" class="fa fa-folder-o" aria-hidden="true"></i>
+
+            <div class = "project-status">
+                <div>DEVELOPING</div>
+            </div>
+
+            <h1 class = "project-title">Solax skill (Alexa)</h1>    
+                <p class = "project-dscp">
+                    Alexa skill for interact via API and retriving data from your Solax cloud plant. 
+                </p>
+
+            <div class = "project-link">
+                <a href =  "https://github.com/Im0day/Im0day" target = "_blank"> 
+                    <i id = "fa-icon" class = "fa fa-github"></i>
+                </a>
+            </div>  
+        </div>   
+
+        <div data-aos-delay = "500" data-aos = "fade-in" data-aos-duration = "400"  class = "project-item">
+            <i id = "fa-folder" class="fa fa-folder-o" aria-hidden="true"></i>
+
+            <div class = "project-status">
+                <div>ACTIVE</div>
+            </div>
+
+            <h1 class = "project-title">Security-Lab</h1>    
+                <p class = "project-dscp">
+                    Telegram channel for stay update on the news about information security world and learn new things.  
+                </p>
+
+            <div class = "project-link">
+                <a href =  "https://t.me/CyberSec_Lab_ITA" target = "_blank"> 
+                    <i  style = "font-size: 25px" id = "fa-icon" class = "fa fa-external-link"></i>
+                </a>
+            </div>  
+        </div>   
+
+        <div data-aos-delay = "500" data-aos = "fade-in" data-aos-duration = "400"  class = "project-item">
+            <i id = "fa-folder" class="fa fa-folder-o" aria-hidden="true"></i>
+
+            <div class = "project-status">
+                <div>DEVELOPING</div>
+            </div>
+
+            <h1 class = "project-title">Whisp</h1>    
+                <p class = "project-dscp">
+                    Anonymous and secure desktop chat, no login required,<br> no logs saved, fully encrypted. 
+                </p>
+
+            <div class = "project-link">
+                <a href =  "https://github.com/Im0day/Im0day" target = "_blank"> 
+                    <i id = "fa-icon" class = "fa fa-github"></i>
+                </a>
+            </div>  
+        </div>   
+    </div>
+</section>
+
+
+<!--Contacts--------------->
+<div  data-aos-delay = "0" data-aos = "fade-up" data-aos-duration = "600" class = "contact-column">
+    <div data-aos-delay = "500" data-aos = "fade-in" data-aos-duration = "500"  class = "social-icons">
+        <a href = "https://github.com/Im0day/"  target = "_blank" >
+            <i id = "#github-ico" aria-hidden="true" class = "fa fa-github"></i>
+        </a>
+
+        <a href = "https://t.me/X0dayy"  target="_blank" >
+            <i id = "#telegram-ico" aria-hidden="true" class = "fa fa-telegram"></i>
+        </a>
+
+        <a href = "https://twitter.com/im0day_" target="_blank">
+            <i id = "#twitter-ico" aria-hidden="true" class = "fa fa-twitter"></i>
+        </a>
+    </div>
+</div>
+
+<div class = "back-main">
+    <a href = "#ancor1"><i class="fa fa-chevron-up fa-1x"></i></a>
+</div>
+
+<footer>
+    <div class = "copyright">
+        2023 im0day.github.io&#169 by <span> 0day</span>
+    </div>
+
+    <div class = "resources">
+        Icon: <a href = "https://fontawesome.com" target = "_blank"><span>fontawesome.com</span></a>
+        | skill-icon: <a href = "https://github.com/alexandresanlim" target = "_blank"><span>github.com/alexandresanlim</span></a>
+    </div>
+</footer>
+
+
+<!--Shape--------------->
+<div class="shape-divider-bottom">
+    <svg data-name = "Layer 1" xmlns = "http://www.w3.org/2000/svg" viewBox = "0 0 1200 120" preserveAspectRatio = "none">
+        <path d = "M1200 120L0 16.48 0 0 1200 0 1200 120z" class = "shape-fill"></path>
+    </svg>
+</div>
+
+
+<!--Scripts--------------->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src  = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src = "app.js"></script>
+<script> AOS.init({once: true});</script>
+
+    </body>
+</html> 
+    
